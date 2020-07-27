@@ -1,0 +1,17 @@
+<div class="col-md-12">
+  <div>
+    <h2>
+      Find a Plugin
+    </h2>
+    <p>
+      Integrations are built by the community, and tagged as homebridge-plugin on NPM.
+    </p>
+    <form id="searchForm" (ngSubmit)="submitForm()">
+      <span>
+        <input id="searchInput" type="text" placeholder="search for your device, like 'ring'" [(ngModel)]="searchInput"
+          name="searchInput">
+        <button type="submit">Search</button>
+      </span>
+    </form>
+  </div>
+</div>

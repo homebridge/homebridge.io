@@ -1,0 +1,117 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"),
+    local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+body {
+  background: #140a33 url(../assets/images/bg.jpg) center top;
+  background-repeat: repeat;
+  background-size: cover;
+  // background-size: auto;
+  height: 100vh;
+}
+
+footer {
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+footer > p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 800px;
+  line-height: 1.75;
+}
+footer > p > span {
+  color: rgba(255, 255, 255, 0.25);
+}
+footer > p:first-child {
+  padding-bottom: 20px;
+}
+footer > p + p {
+  padding-top: 0;
+}
+
+.RaspberryPi {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.navbar {
+  .navbar-nav {
+    flex-direction: row !important;
+    .nav-item {
+      margin-left: 20px;
+      font-size: 30px;
+      a {
+        opacity: 0.6;
+        color: #ffffff !important;
+        &:hover {
+          color: #ffffff;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.masthead-content {
+  color: #ffffff;
+
+  @media only screen and (min-width: 600px) {
+    margin-top: 75px;
+  }
+
+  @media only screen and (max-width: 599px) {
+    margin-top: 75px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: 0.66;
+  }
+}
+
+a {
+  color: #8a36e3 !important;
+  text-decoration: none;
+}
+
+@import "./background.scss";
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+.btn-purple,
+.btn-purple:visited {
+  background-color: #3d1a63;
+  border-color: #3d1a63;
+  color: #ffffff !important;
+}
+
+.btn-purple:active,
+.btn-purple:hover,
+.btn-purple:focus {
+  border-color: #2d114c;
+  background-color: #2d114c;
+}

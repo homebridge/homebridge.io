@@ -1,0 +1,31 @@
+.platforms {
+  .platform-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.platform-box {
+  text-align: center;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.5);
+
+  &:hover {
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  &.active {
+    color: #ffffff;
+
+    .is-selected {
+      display: block;
+    }
+  }
+}
+
+.is-selected {
+  display: none;
+  margin-bottom: -47px;
+  margin-top: -47px;
+}
