@@ -1,13 +1,19 @@
 .platforms {
+  max-width: 550px;
+
   .platform-box {
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 60px;
+  }
+
+  @media only screen and (max-width: 668px) {
+    .platform-box {
+      font-size: 35px;
+    }
   }
 }
 
 .platform-box {
   text-align: center;
-  font-size: 60px;
   color: rgba(255, 255, 255, 0.5);
 
   &:hover {
@@ -24,8 +30,18 @@
   }
 }
 
-.is-selected {
-  display: none;
-  margin-bottom: -47px;
-  margin-top: -47px;
+@media only screen and (max-width: 668px) {
+  .is-selected {
+    display: none;
+    margin-bottom: -25px;
+    margin-top: -25px;
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .is-selected {
+    display: none;
+    margin-bottom: -47px;
+    margin-top: -47px;
+  }
 }

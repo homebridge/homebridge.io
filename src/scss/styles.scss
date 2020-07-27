@@ -56,6 +56,11 @@ footer > p + p {
     flex-direction: row !important;
     .nav-item {
       margin-left: 20px;
+
+      @media only screen and (min-width: 668px) {
+        margin-top: 10px;
+      }
+
       font-size: 30px;
       a {
         opacity: 0.6;
@@ -72,12 +77,8 @@ footer > p + p {
 .masthead-content {
   color: #ffffff;
 
-  @media only screen and (min-width: 600px) {
-    margin-top: 75px;
-  }
-
-  @media only screen and (max-width: 599px) {
-    margin-top: 75px;
+  @media only screen and (min-width: 668px) {
+    margin-top: 10px;
   }
 
   h1 {
