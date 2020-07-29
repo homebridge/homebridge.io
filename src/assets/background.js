@@ -27,15 +27,15 @@
     parallaxSpeed: 7
   }, {
     id: 2,
-    className: '__lvl2',
+    className: '__lvl1',
     parallaxSpeed: 5.5
   }, {
     id: 3,
-    className: '__lvl3',
+    className: '__lvl1',
     parallaxSpeed: 2.5
   }, {
     id: 4,
-    className: '__lvl4',
+    className: '__lvl1',
     parallaxSpeed: 0.5
   }];
 
@@ -43,7 +43,7 @@
 
   function initialise() {
     DOMReady(function () {
-      for (var i = 0; i < 10; i++) {
+      for (var i = 0; i < 5; i++) {
         createCommandHtml(true);
       }
     });

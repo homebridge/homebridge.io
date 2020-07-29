@@ -1,3 +1,6 @@
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
 @font-face {
   font-family: system;
   font-style: normal;
@@ -12,96 +15,17 @@ h3,
 h4,
 h5 {
   font-weight: 600;
+  font-family: system;
 }
 
 body {
-  background: #140a33 url(../assets/images/bg.jpg) center top;
-  background-repeat: repeat;
-  background-size: cover;
-  // background-size: auto;
   height: 100vh;
 }
 
-footer {
-  display: block;
-  margin-top: 80px;
-  margin-bottom: 20px;
-}
-
-footer > p {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.75);
-  max-width: 800px;
-  line-height: 1.75;
-}
-footer > p > span {
-  color: rgba(255, 255, 255, 0.25);
-}
-footer > p:first-child {
-  padding-bottom: 20px;
-}
-footer > p + p {
-  padding-top: 0;
-}
-
-.RaspberryPi {
-  filter: grayscale(100%);
-  opacity: 0.5;
-}
-
-.navbar {
-  .navbar-nav {
-    flex-direction: row !important;
-    .nav-item {
-      margin-left: 20px;
-
-      @media only screen and (min-width: 668px) {
-        margin-top: 10px;
-      }
-
-      font-size: 30px;
-      a {
-        opacity: 0.6;
-        color: #ffffff !important;
-        &:hover {
-          color: #ffffff;
-          opacity: 1;
-        }
-      }
-    }
-  }
-}
-
-.masthead-content {
-  color: #ffffff;
-
-  @media only screen and (min-width: 668px) {
-    margin-top: 10px;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
-    opacity: 0.66;
-  }
-}
-
 a {
-  color: #8a36e3 !important;
+  color: #8a36e3;
   text-decoration: none;
 }
-
-@import "./background.scss";
-
-/* Importing Bootstrap SCSS file. */
-@import "~bootstrap/scss/bootstrap";
 
 .btn-purple,
 .btn-purple:visited {
@@ -116,3 +40,5 @@ a {
   border-color: #2d114c;
   background-color: #2d114c;
 }
+
+@import "./background.scss";

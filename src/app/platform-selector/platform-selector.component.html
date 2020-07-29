@@ -1,66 +1,69 @@
 <div class="container platforms d-flex flex-row justify-content-between" style="margin-top: 20px;">
-
   <ng-container *ngFor="let platform of platforms">
-
     <div class="platform-box" (click)="selectPlatform(platform)"
       [ngClass]="{'active': selectedPlatform === platform.key}">
       <fa-icon [icon]="platform.icon" fixedWidth></fa-icon>
-      <fa-icon [icon]="faCaretUp" class="is-selected" fixedWidth></fa-icon>
     </div>
-
   </ng-container>
-
-  <!-- <div class="platform-box mr-5">
-    <fa-icon [icon]="faLinux" fixedWidth></fa-icon>
-  </div>
-
-  <div class="platform-box mr-5 active">
-    <fa-icon [icon]="faApple" fixedWidth></fa-icon>
-   
-  </div>
-
-  <div class="platform-box mr-5">
-    <fa-icon [icon]="faDocker" fixedWidth></fa-icon>
-  </div>
-
-  <div class="platform-box">
-    <fa-icon [icon]="faWindows" fixedWidth></fa-icon>
-  </div> -->
-
 </div>
 
 <div class="d-flex flex-row justify-content-center" *ngIf="selectedPlatform">
 
-  <div class="bg-white container text-center p-3" [ngSwitch]="selectedPlatform">
+  <div class="container text-center p-3 display-platform-help" [ngSwitch]="selectedPlatform">
     <div *ngSwitchCase="'pi'">
-      <h3>Raspberry Pi</h3>
-      <a class="btn btn-lg btn-purple mt-3"
+      <h4>Homebridge on Raspberry Pi</h4>
+      <p>The Homebridge Raspberry Pi Image is the quickest way to get Homebridge running on any Raspberry
+        Pi:</p>
+      <a class="btn btn-lg btn-purple"
         href="https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started">Official Homebridge
         Raspberry Pi Image</a>
-      <br>
-      <a class="btn btn-lg btn-purple mt-3"
+      <p class="mt-3">Or you can install Homebridge yourself on any Raspberry Pi running Raspbian:</p>
+      <a class="btn btn-lg btn-purple"
         href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Raspbian">Install on RaspberryPi
         OS</a>
     </div>
 
     <div *ngSwitchCase="'linux'">
-      <h3>Linux</h3>
-      <a class="btn btn-lg btn-purple mt-3"
+      <h4>Homebridge on Linux</h4>
+      <p>Homebridge will work on any Linux platform that can run Node.js.</p>
+      <a class="btn btn-lg btn-purple"
         href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux">
         Install on Debian / Ubuntu Linux
       </a>
     </div>
 
     <div *ngSwitchCase="'macos'">
-      <h3>macOS</h3>
-      <a class="btn btn-lg btn-purple mt-3"
-        href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-macOS">
+      <h4>Homebridge on macOS</h4>
+      <p>Run Homebridge as a background service on your Mac:</p>
+      <a class="btn btn-lg btn-purple" href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-macOS">
         Install on macOS
       </a>
     </div>
 
+    <div *ngSwitchCase="'docker'">
+      <h4>Docker</h4>
+
+      <p class="font-italic">
+        Note: Homebridge will not run under Docker for Mac or Docker for Windows as these platforms do not support
+        host-level networking.
+      </p>
+
+      <a class="btn btn-lg btn-purple" href="https://github.com/oznu/docker-homebridge">Homebridge Docker Image</a>
+      <br>
+      <a class="btn btn-lg btn-purple mt-3"
+        href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker">
+        Homebridge Docker on Linux Guide
+      </a>
+      <p class="mt-3">
+        If you have a Synology NAS, the Homebridge Synology Package is the best way to install Homebridge:
+      </p>
+      <a class="btn btn-lg btn-purple" href="https://github.com/oznu/homebridge-syno-spk#how-to-install">
+        Synology DSM Package
+      </a>
+    </div>
+
     <div *ngSwitchCase="'windows'">
-      <h3>Windows 10</h3>
+      <h4>Homebridge on Windows 10</h4>
       <p>Windows 10 Pro / Edu / Enterprise users should install Homebridge using Hyper-V:</p>
       <a class="btn btn-lg btn-purple"
         href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Windows-10-Using-Hyper-V">
@@ -70,19 +73,6 @@
       <a class="btn btn-lg btn-purple"
         href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Windows-10">
         Install Homebridge on Windows 10
-      </a>
-    </div>
-
-    <div *ngSwitchCase="'docker'">
-      <h3>Docker</h3>
-
-      <a class="btn btn-lg btn-purple mt-3" href="https://github.com/oznu/docker-homebridge">Homebridge Docker Image</a>
-      <br>
-      <a class="btn btn-lg btn-purple mt-3"
-        href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker">Docker on Linux</a>
-      <br>
-      <a class="btn btn-lg btn-purple mt-3" href="https://github.com/oznu/homebridge-syno-spk#how-to-install">
-        Docker on Synology DSM
       </a>
     </div>
 

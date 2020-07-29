@@ -1,0 +1,43 @@
+.navbar {
+  background-color: rgb(0 0 0 / 0);
+
+  a {
+    &:hover {
+      color: #fff !important;
+    }
+  }
+
+  .social-icon-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+
+    @media (max-width: 575px) {
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+  }
+}
+
+.masthead-content {
+  width: 100%;
+
+  background-color: #150a34;
+  background: #150a34 url(../../assets/images/bg.jpg) center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #ffffff;
+  padding-bottom: 20px;
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: 0.66;
+  }
+}

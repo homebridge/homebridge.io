@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faGithub, faDiscord, faReddit } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +6,5 @@ import { faGithub, faDiscord, faReddit } from '@fortawesome/free-brands-svg-icon
   styles: [],
 })
 export class AppComponent {
-  public faGithub = faGithub;
-  public faDiscord = faDiscord;
-  public faReddit = faReddit;
 
-  public currentYear = new Date().getFullYear();
 }

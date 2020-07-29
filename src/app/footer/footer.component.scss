@@ -1,0 +1,25 @@
+footer {
+  background-color: #150a34;
+  display: block;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer > p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 800px;
+  line-height: 1.75;
+}
+footer > p > span {
+  color: rgba(255, 255, 255, 0.25);
+}
+footer > p:first-child {
+  padding-bottom: 20px;
+}
+footer > p + p {
+  padding-top: 0;
+}

@@ -47,6 +47,10 @@ export class PlatformSelectorComponent implements OnInit {
   }
 
   selectPlatform(platform) {
+    if (platform.key === this.selectedPlatform) {
+      this.selectedPlatform = '';
+      return;
+    }
     this.selectedPlatform = platform.key;
   }
 
