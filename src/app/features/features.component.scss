@@ -6,3 +6,9 @@ p,
 li {
   color: #6a6087;
 }
+
+.section-block {
+  @media (max-width: 575px) {
+    padding: 15px !important;
+  }
+}
