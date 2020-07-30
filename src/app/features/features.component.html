@@ -1,7 +1,7 @@
 <div class="bg-white mt-4 mb-4">
   <div class="row p-5 section-block">
     <div class="col-md-6">
-      <h4>Bringing HomeKit support where there is none</h4>
+      <h3>Bringing HomeKit support where there is none</h3>
       <p>
         Homebridge allows you to integrate with smart home devices that do not natively support HomeKit. There are
         over 2,000 Homebridge plugins supporting thousands of different smart accessories.
@@ -43,7 +43,7 @@
 
   <div class="row mt-2 p-5 section-block">
     <div class="col-md-6">
-      <h4>Control your smart devices</h4>
+      <h3>Control your smart devices</h3>
       <p>
         Use your iPhone, iPad, Apple Watch, and Mac to control your Homebridge accessories and
         setup automations.
@@ -80,7 +80,7 @@
       <img src="assets/images/homebridge-ui.png" width="100%">
     </div>
     <div class="col-md-6">
-      <h4>Simple user interface</h4>
+      <h3>Simple user interface</h3>
       <p>
         The <a href="https://github.com/oznu/homebridge-config-ui-x">Homebridge UI</a> provides an easy to use
         interface to manage your Homebridge plugins, configuration and accessories.
@@ -98,24 +98,57 @@
     </div>
   </div>
 
-
   <div class="row mt-2 p-5 section-block">
     <div class="col-md-6">
-      <h4>Hardware & Installation</h4>
+      <h3>Homebridge <fa-icon [icon]="faHeart" class="text-pink"></fa-icon> Raspberry Pi</h3>
       <p>
-        Homebridge is powered by <a href="https://nodejs.org/">Node.js</a> and can run on any computer. Even a $5
-        <a href="https://www.raspberrypi.org/products/raspberry-pi-zero/">
-          Raspberry Pi Zero
-        </a>
-        can run the pre-made
-        <a href="https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started">
-          Homebridge Raspberry Pi Image</a>.
+        The <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a> is a low cost, credit-card sized
+        computer that is perfect for running Homebridge.
       </p>
 
+      <div class="d-flex flex-row">
+        <fa-icon [icon]="faSdCard" style="font-size: 60px;" class="mr-3 text-dark-purple"></fa-icon>
+        <div class="mt-2">
+          <p>
+            Homebridge provides a pre-made Raspberry Pi image. Once flashed to your SD card, you will have
+            Homebridge up and running in minutes.
+          </p>
+          <div class="text-center">
+            <h5>
+              <fa-icon [icon]="faDownload" class="text-dark-purple mr-2"></fa-icon>
+              <a href="https://github.com/homebridge/homebridge-raspbian-image/releases/latest" target="_blank">
+                Download Homebridge Raspberry Pi Image
+              </a>
+            </h5>
+            <p>
+              Follow the
+              <a href="https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started">Getting Started</a>
+              guide for setup instructions.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mt-4">Install Homebridge</h3>
       <p>
-        The <a href="https://github.com/homebridge/homebridge/wiki">Homebridge Wiki</a> contains detailed setup
-        guides for all popular platforms.
-      </p>
+        The <a href="https://github.com/homebridge/homebridge/wiki">Homebridge Wiki</a> has easy to follow setup guides
+        to help you get Homebridge running on your existing system:</p>
+      <ul>
+        <li><a href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-macOS">macOS</a></li>
+        <li><a href="https://github.com/homebridge/homebridge/wiki">Windows 10</a></li>
+        <li>
+          <a href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Raspbian">Raspberry Pi OS</a>
+        </li>
+        <li>
+          <a href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux">Linux</a>
+        </li>
+        <li>
+          <a href="https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker">Docker</a>
+        </li>
+        <li>
+          <a href="https://github.com/homebridge/homebridge/wiki/Other-Platforms">Other Platforms</a>
+        </li>
+      </ul>
     </div>
     <div class="col-md-6 text-center">
       <img class="RaspberryPi mt-2" src="assets/images/raspberry-pi.svg" width="80%">

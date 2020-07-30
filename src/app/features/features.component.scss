@@ -8,6 +8,11 @@ li {
 }
 
 .section-block {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.section-block {
   @media (max-width: 575px) {
     padding: 15px !important;
   }
