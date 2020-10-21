@@ -1,52 +1,14 @@
-/* Importing Bootstrap SCSS file. */
+////////////////////////////////////////////////////////////////////////////////
+// Homebridge.io
+////////////////////////////////////////////////////////////////////////////////
+
+// Vendors
 @import "~bootstrap/scss/bootstrap";
 
-@font-face {
-  font-family: system;
-  font-style: normal;
-  font-weight: 300;
-  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"),
-    local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
-}
+// Base
+@import "base/colors";
+@import "base/typography";
+@import "base/buttons";
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: 600;
-}
-
-body {
-  height: 100vh;
-  font-family: "din-2014", system, sans-serif;
-}
-
-a {
-  color: #8a36e3;
-  text-decoration: none;
-}
-
-.btn-purple,
-.btn-purple:visited {
-  background-color: #3d1a63;
-  border-color: #3d1a63;
-  color: #ffffff !important;
-}
-
-.btn-purple:active,
-.btn-purple:hover,
-.btn-purple:focus {
-  border-color: #2d114c;
-  background-color: #2d114c;
-}
-
-.text-pink {
-  color: #fd00ff;
-}
-
-.text-dark-purple {
-  color: #3d1a63;
-}
-
-@import "./background.scss";
+// Components
+@import "components/header";
