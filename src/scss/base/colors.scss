@@ -1,0 +1,31 @@
+////////////////////////////////////////////////////////////////////////////////
+// Colours
+// Where all of Homebridge.io's Color variables are defined. Hues are defined as
+// multiples of 100, typically stopping around 700 leaving 7 Hue choices for
+// each colour
+////////////////////////////////////////////////////////////////////////////////
+
+// White
+$homebridge-white: #fff;
+
+// Purple
+$homebridge-purple-300: #8a36e3; // Base colour
+$homebridge-purple-400: #3d1a63;
+$homebridge-purple-500: #2d114c;
+
+// Pink
+$homebridge-pink-300: #fd00ff;
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Helper Classes
+// Classes that can be added to elements to change their colour specifically
+////////////////////////////////////////////////////////////////////////////////
+
+.homebridge-pink-300 {
+  color: $homebridge-pink-300;
+}
+
+.homebridge-purple-400 {
+  color: $homebridge-purple-400;
+}

@@ -1,0 +1,19 @@
+////////////////////////////////////////////////////////////////////////////////
+// Buttons
+// Where all button types and button styles are styled
+////////////////////////////////////////////////////////////////////////////////
+
+.btn-purple {
+  &:active,
+  &:hover,
+  &:focus {
+    background-color: $homebridge-purple-500;
+    border-color: $homebridge-purple-500;
+  }
+
+  &:visited {
+    background-color: $homebridge-purple-400;
+    border-color: $homebridge-purple-400;
+    color: $homebridge-white;
+  }
+}
