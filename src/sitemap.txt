@@ -1,0 +1,3 @@
+https://homebridge.io/
+https://homebridge.io/?/raspberry-pi-image
+https://homebridge.io/?/how-to-install-homebridge

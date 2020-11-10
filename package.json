@@ -30,6 +30,7 @@
     "bootstrap": "^4.5.3",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
+    "ngx-markdown": "^10.1.1",
     "popper.js": "^1.16.1",
     "rxjs": "^6.6.3",
     "tslib": "^2.0.3",
