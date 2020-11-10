@@ -11,7 +11,6 @@ import { FeaturesComponent } from './features/features.component';
 import { FindPluginComponent } from './features/find-plugin/find-plugin.component';
 import { OfficialRaspberryPiImageComponent } from './official-raspberry-pi-image/official-raspberry-pi-image.component';
 
-
 @NgModule({
   declarations: [
     FeaturesComponent,
