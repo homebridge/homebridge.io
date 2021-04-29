@@ -53,7 +53,8 @@
               "src/CNAME",
               "src/404.html",
               "src/assets/images/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/rpi-image-repo.json"
             ],
             "styles": [
               "src/scss/styles.scss"
