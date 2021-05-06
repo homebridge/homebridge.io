@@ -7,7 +7,7 @@
 .btn-purple:visited {
   background-color: $homebridge-purple-400;
   border-color: $homebridge-purple-400;
-  color: $homebridge-white;
+  color: $homebridge-white !important;
 
   &:active,
   &:hover,
