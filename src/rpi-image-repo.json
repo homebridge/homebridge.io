@@ -9,7 +9,8 @@
       "extract_sha256": "058e4e7e0af9c1b687f20929da8ccebf9e3b33c2892c2aa22c0ea70a392fad75",
       "image_download_size": 650616914,
       "release_date": "2021-06-16",
-      "image_download_sha256": "5f60833a140c9f186df30006dfb6b19cf65a9759503525b4fd149b2423ca42f0"
+      "image_download_sha256": "5f60833a140c9f186df30006dfb6b19cf65a9759503525b4fd149b2423ca42f0",
+      "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started"
     }
   ]
 }
