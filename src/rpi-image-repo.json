@@ -3,6 +3,7 @@
     {
       "name": "Homebridge",
       "description": "Official Homebridge Raspberry Pi Image",
+      "init_format": "systemd",
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
       "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.0.30/Raspbian-Homebridge-v1.0.30.zip",
