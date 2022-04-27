@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { faSdCard, faDownload } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -6,13 +6,10 @@ import { faSdCard, faDownload } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './official-raspberry-pi-image.component.html',
   styleUrls: ['./official-raspberry-pi-image.component.scss'],
 })
-export class OfficialRaspberryPiImageComponent implements OnInit {
+export class OfficialRaspberryPiImageComponent {
   public faSdCard = faSdCard;
   public faDownload = faDownload;
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

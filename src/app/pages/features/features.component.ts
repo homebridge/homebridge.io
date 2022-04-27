@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { faHeart, faSdCard, faDownload } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -6,14 +6,11 @@ import { faHeart, faSdCard, faDownload } from '@fortawesome/free-solid-svg-icons
   templateUrl: './features.component.html',
   styleUrls: ['./features.component.scss'],
 })
-export class FeaturesComponent implements OnInit {
+export class FeaturesComponent {
   public faHeart = faHeart;
   public faSdCard = faSdCard;
   public faDownload = faDownload;
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

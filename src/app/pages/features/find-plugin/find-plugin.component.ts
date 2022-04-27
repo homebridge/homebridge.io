@@ -1,17 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-find-plugin',
   templateUrl: './find-plugin.component.html',
   styleUrls: ['./find-plugin.component.scss'],
 })
-export class FindPluginComponent implements OnInit {
+export class FindPluginComponent {
   public searchInput = '';
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
   submitForm() {
     if (this.searchInput) {

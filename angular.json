@@ -117,9 +117,21 @@
           "options": {
             "browserTarget": "homebridge:build"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "homebridge"
+  "defaultProject": "homebridge",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }

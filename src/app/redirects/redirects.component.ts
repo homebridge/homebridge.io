@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
-import * as urlRedirects from '../../redirects.json'
+import * as urlRedirects from '../../redirects.json';
 
 @Component({
   selector: 'app-redirects',

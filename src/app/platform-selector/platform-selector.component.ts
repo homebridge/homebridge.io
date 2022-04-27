@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { faWindows, faApple, faDocker, faRaspberryPi, faLinux } from '@fortawesome/free-brands-svg-icons';
 import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,7 +9,7 @@ declare var gtag;
   templateUrl: './platform-selector.component.html',
   styleUrls: ['./platform-selector.component.scss'],
 })
-export class PlatformSelectorComponent implements OnInit {
+export class PlatformSelectorComponent {
   public faCaretUp = faCaretUp;
 
   public faWindows = faWindows;
@@ -44,9 +44,6 @@ export class PlatformSelectorComponent implements OnInit {
   ];
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
   selectPlatform(platform) {
     if (platform.key === this.selectedPlatform) {
