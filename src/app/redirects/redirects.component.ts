@@ -27,10 +27,10 @@ export class RedirectsComponent implements OnInit {
 
     if (this.urlRedirects[this.key]) {
       this.url = this.urlRedirects[this.key];
-      // window.location.href = this.url;
+      window.location.href = this.url;
     } else {
       this.url = this.urlRedirects.wiki;
-      // window.location.href = this.urlRedirects.wiki;
+      window.location.href = this.urlRedirects.wiki;
     }
   }
 
