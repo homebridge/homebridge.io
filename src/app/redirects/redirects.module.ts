@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { RedirectsRoutingModule } from './redirects-routing.module';
 import { RedirectsComponent } from './redirects.component';
@@ -11,6 +12,7 @@ import { RedirectsComponent } from './redirects.component';
   ],
   imports: [
     CommonModule,
+    FontAwesomeModule,
     RedirectsRoutingModule
   ]
 })
