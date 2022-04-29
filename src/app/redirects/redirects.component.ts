@@ -25,13 +25,15 @@ export class RedirectsComponent implements OnInit {
   ngOnInit(): void {
     this.key = this.activatedRoute.snapshot.paramMap.get('key');
 
-    if (this.urlRedirects[this.key]) {
-      this.url = this.urlRedirects[this.key];
-      window.location.href = this.url;
-    } else {
-      this.url = this.urlRedirects.wiki;
-      window.location.href = this.urlRedirects.wiki;
-    }
+    setTimeout(() => {
+      if (this.urlRedirects[this.key]) {
+        this.url = this.urlRedirects[this.key];
+        window.location.href = this.url;
+      } else {
+        this.url = this.urlRedirects.wiki;
+        window.location.href = this.urlRedirects.wiki;
+      }
+    }, 200);
   }
 
 }
