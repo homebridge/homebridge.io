@@ -8,3 +8,4 @@
 /w/JJSz6 https://github.com/oznu/homebridge-config-ui-x/wiki/Troubleshooting#npm-registry-issues 301
 /w/JJSgm https://github.com/oznu/homebridge-config-ui-x/wiki/Troubleshooting#multiple-instances-of-homebridge-found-installed 301
 /w/JJSgZ https://github.com/oznu/homebridge-config-ui-x/wiki/Troubleshooting#unable-to-find-homebridge-installation 301
+/w/* https://github.com/homebridge/homebridge/wiki/:splat 302
