@@ -11,7 +11,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
-import { RedirectsModule } from './redirects/redirects.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import { RedirectsModule } from './redirects/redirects.module';
     FontAwesomeModule,
     MarkdownModule.forRoot({ loader: HttpClient }),
     PagesModule,
-    RedirectsModule,
     AppRoutingModule,
   ],
   providers: [],
