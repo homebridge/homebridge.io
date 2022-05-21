@@ -51,7 +51,12 @@
               "src/404.html",
               "src/assets/images/favicon.ico",
               "src/assets",
-              "src/rpi-image-repo.json"
+              "src/rpi-image-repo.json",
+              {
+                "glob": "**/*",
+                "input": "src/public",
+                "output": "/"
+              }
             ],
             "styles": [
               "src/scss/styles.scss"
