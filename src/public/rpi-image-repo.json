@@ -6,12 +6,12 @@
       "init_format": "systemd",
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.0.36/Raspbian-Homebridge-v1.0.36.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.0.37/Raspbian-Homebridge-v1.0.37.zip",
       "release_date": "2022-06-03",
-      "image_download_sha256": "da3f7593b89596781f8703a5f4d738a4f2163324dc7c2ba65a5bd1f487f361bd",
-      "image_download_size": 699037427,
-      "extract_sha256": "8996bfad3fca456b0ae58dce4097cdbefdd9565f5f9af2c1fe98902a12aaff12",
-      "extract_size": 2709520384
+      "image_download_sha256": "855914a2879a83c1ffdd182a68d68112212e96749821a8557708233e2cded7fa",
+      "image_download_size": 664109809,
+      "extract_sha256": "42ed123344014cbda3037323f0a78a9da8be06795285cce46a99b7f1fb1aede7",
+      "extract_size": 2562719744
     }
   ]
 }
