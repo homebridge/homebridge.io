@@ -5,13 +5,13 @@
       "description": "Official Homebridge Raspberry Pi Image",
       "init_format": "systemd",
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.0.41/Raspbian-Homebridge-v1.0.41.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.0.39/Raspbian-Homebridge-v1.0.39.zip",
-      "release_date": "2022-11-10",
-      "image_download_sha256": "c2cb3be467075d90d15e0a926ab4ec42c99c694a57dadf6576736f1ac6a1de04",
-      "image_download_size": 682240799,
-      "extract_sha256": "f3b8735ba65c68da9070ecd355b975a838610b2df288738225cae23f83d64898",
-      "2499805184": 2881486848
+      "release_date": "2023-05-25",
+      "extract_size": 2596274176,
+      "image_download_size": 722277549,
+      "extract_sha256": "0eb81314aa82171726ad4621e162e4bb944b9f74e331d144166365c2f729c44a",
+      "image_download_sha256": "3af6040933edc3a2c8575999b269f2a86d1d9d121c2776557d7b80223347e860"
     }
   ]
 }
