@@ -2,10 +2,11 @@
 /w/JqTFs https://github.com/homebridge/homebridge-raspbian-image/wiki/How-To-Set-Date-And-Time 301
 /w/JTKEF https://github.com/homebridge/homebridge/wiki/How-To-Update-Node.js 301
 /w/JtMGR https://github.com/homebridge/homebridge/wiki/Characteristic-Warnings 301
-/w/JUvQr https://github.com/oznu/homebridge-config-ui-x/wiki/How-To-Swap-From-Standalone-Mode-to-Service-Mode 301
-/w/JTtHK https://github.com/oznu/homebridge-config-ui-x/wiki/Homebridge-Service-Command 301
-/w/JtHrm https://github.com/oznu/homebridge-config-ui-x/wiki/Manual-Configuration#log-viewer-configuration 301
-/w/JJSz6 https://github.com/oznu/homebridge-config-ui-x/wiki/Troubleshooting#npm-registry-issues 301
-/w/JJSgm https://github.com/oznu/homebridge-config-ui-x/wiki/Troubleshooting#multiple-instances-of-homebridge-found-installed 301
-/w/JJSgZ https://github.com/oznu/homebridge-config-ui-x/wiki/Troubleshooting#unable-to-find-homebridge-installation 301
+/w/JUvQr https://github.com/homebridge/homebridge-config-ui-x/wiki/How-To-Swap-From-Standalone-Mode-to-Service-Mode 301
+/w/JTtHK https://github.com/homebridge/homebridge-config-ui-x/wiki/Homebridge-Service-Command 301
+/w/JtHrm https://github.com/homebridge/homebridge-config-ui-x/wiki/Manual-Configuration#log-viewer-configuration 301
+/w/JJSz6 https://github.com/homebridge/homebridge-config-ui-x/wiki/Troubleshooting#npm-registry-issues 301
+/w/JJSgm https://github.com/homebridge/homebridge-config-ui-x/wiki/Troubleshooting#multiple-instances-of-homebridge-found-installed 301
+/w/JJSgZ https://github.com/homebridge/homebridge-config-ui-x/wiki/Troubleshooting#unable-to-find-homebridge-installation 301
+/w/JJSnm https://github.com/homebridge/homebridge-config-ui-x/wiki/Troubleshooting#error---update-node---your-version-of-linux-does-not-meet-the-glibc-version 301
 /w/* https://github.com/homebridge/homebridge/wiki/:splat 302
