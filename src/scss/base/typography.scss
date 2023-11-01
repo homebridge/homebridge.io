@@ -9,6 +9,7 @@
   font-style: normal;
   font-weight: 300;
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  font-display: swap;
 }
 
 $default-font-family: "din-2014", system, sans-serif;
@@ -40,4 +41,8 @@ h5 {
 a {
   color: $homebridge-purple-300;
   text-decoration: none;
+}
+
+.homebridge-purple-200 a {
+  color: $homebridge-purple-200;
 }
