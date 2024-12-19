@@ -4,7 +4,7 @@
       "name": "Homebridge bookworm (32bit)",
       "description": "Official Homebridge Raspberry Pi Image bookworm (32bit)",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.1/image_2024-12-19-Homebridge-bookworm-32bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.2/image_2024-12-19-Homebridge-bookworm-32bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
       "release_date": "2024-12-19",
       "devices": [
@@ -16,15 +16,15 @@
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
       "extract_size": 3095396352,
-      "image_download_size": 928463912,
-      "extract_sha256": "187b3ec47d2b9937e68e08da623d9c0ab8baf420073d919dc0f7f8eac41db1c1",
-      "image_download_sha256": "97f71bab5fac91efea499e57792ae9c3f4cb9390990de4fc6e558b923a351124"
+      "image_download_size": 928534210,
+      "extract_sha256": "cdb18cb466d6f156aebf14636ffc03a3ab6fbedd64022496ab65b6f58fa7cfcf",
+      "image_download_sha256": "3130f69273fd6f4bbc4a0dfdb2262708124ae64fdceb8a97a59a031bad788e92"
     },
     {
       "name": "Homebridge bookworm (64bit)",
       "description": "Official Homebridge Raspberry Pi Image bookworm (64bit)",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.1/image_2024-12-19-Homebridge-bookworm-64bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.2/image_2024-12-19-Homebridge-bookworm-64bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
       "release_date": "2024-12-19",
       "devices": [
@@ -34,9 +34,9 @@
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
       "extract_size": 3355443200,
-      "image_download_size": 861566428,
-      "extract_sha256": "d0d7893b1aca466c4fc530d934765496b8a0a0288edafd9b05fdfb1f422ed69f",
-      "image_download_sha256": "7508c35c1284478c91e71a5776e0a4e3c41f8df6bd874e183962627f38fbea5c"
+      "image_download_size": 861613251,
+      "extract_sha256": "946022bbd8eb59e98d3624104e2c73cbfa27fa9e5b8b45da5a40b44b8e6c362c",
+      "image_download_sha256": "b4dcf09bf84065caf7fe1b3700e1a22386a157979eccb7ebe764be08893c3df0"
     }
   ]
 }
