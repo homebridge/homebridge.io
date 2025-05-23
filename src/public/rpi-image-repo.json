@@ -4,9 +4,9 @@
       "name": "Homebridge bookworm (32bit)",
       "description": "Official Homebridge Raspberry Pi Image bookworm (32bit)",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.5/image_2025-02-26-Homebridge-bookworm-32bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.6/image_2025-05-23-Homebridge-bookworm-32bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "release_date": "2025-02-26",
+      "release_date": "2025-05-23",
       "devices": [
         "pi5-32bit",
         "pi4-32bit",
@@ -15,28 +15,28 @@
         "pi1-32bit"
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
-      "extract_size": 3137339392,
-      "image_download_size": 935786893,
-      "extract_sha256": "d6a38569d775bb491d0d53ba3bfe0a9148841f62052bc3045c47041ad4083b1e",
-      "image_download_sha256": "323efcfaf6404a1595d6c4dda71022df71fb72bcdbee73b16eba345c3452321f"
+      "extract_size": 3112173568,
+      "image_download_size": 916309889,
+      "extract_sha256": "2a4ce74b991d61c3d24a230823437b12a8e39d211199535f8551b28e7e478e6f",
+      "image_download_sha256": "79db0111aff120dc503bd35ee0c5aa2290dd56437dc99521c443db857872fd1e"
     },
     {
       "name": "Homebridge bookworm (64bit)",
       "description": "Official Homebridge Raspberry Pi Image bookworm (64bit)",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.5/image_2025-02-26-Homebridge-bookworm-64bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.6/image_2025-05-23-Homebridge-bookworm-64bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "release_date": "2025-02-26",
+      "release_date": "2025-05-23",
       "devices": [
         "pi5-64bit",
         "pi4-64bit",
         "pi3-64bit"
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
-      "extract_size": 3388997632,
-      "image_download_size": 870019243,
-      "extract_sha256": "92fb9d9afd096b3c294186fad06f395fdf71afb8b315a3495d0268b126b98228",
-      "image_download_sha256": "cf1b900c3927d6f571c7770d3ac54f971f51932e2aff206760326a1671eff5ae"
+      "extract_size": 3363831808,
+      "image_download_size": 846226168,
+      "extract_sha256": "21e19c56b575b710b02e0a8ba95c0e432cf8eb8e56ae8c84efc907dce9bf2bbe",
+      "image_download_sha256": "965f39bda4b2a6f7df6c33efa630a709eb240f939ec32b19f715e33adc0eadb5"
     }
   ]
 }
