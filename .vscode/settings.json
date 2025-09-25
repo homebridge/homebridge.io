@@ -3,7 +3,7 @@
   "editor.insertSpaces": true,
   "files.eol": "\n",
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": "explicit"
+    "source.fixAll.tslint": true
   },
   "editor.formatOnSave": true
 }
