@@ -1,12 +1,12 @@
 {
   "os_list": [
     {
-      "name": "Homebridge bookworm (32bit)",
-      "description": "Official Homebridge Raspberry Pi Image bookworm (32bit) - Not Recommended, support will be ending Spring 2027",
+      "name": "Homebridge trixie (32bit)",
+      "description": "Official Homebridge Raspberry Pi Image trixie (32bit) - Not Recommended, support will be ending Spring 2027",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.7/image_2025-07-16-Homebridge-bookworm-32bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.4.0/image_2025-12-03-Homebridge-trixie-32bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "release_date": "2025-07-16",
+      "release_date": "2025-12-03",
       "devices": [
         "pi5-32bit",
         "pi4-32bit",
@@ -15,28 +15,28 @@
         "pi1-32bit"
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
-      "extract_size": 3120562176,
-      "image_download_size": 919923689,
-      "extract_sha256": "b83a0058440adccf2ab04fde647b6a0da70d5a5c79d1cdddb436e5f046703ed1",
-      "image_download_sha256": "a4ddc37bb8b25edda406f8aa05dbdec022647a086f0a49614d54de9fe390852e"
+      "extract_size": 3229614080,
+      "image_download_size": 946289043,
+      "extract_sha256": "ecdb06259f0879bcce480e997d6a907c5ebf38b9f1a09653b7b1573e464ccd3e",
+      "image_download_sha256": "aa060da570d257bd3465aaa624464b8b30daf7d749e2f7ef0708346dd58cb558"
     },
     {
-      "name": "Homebridge bookworm (64bit)",
-      "description": "Official Homebridge Raspberry Pi Image bookworm (64bit) - Recommended",
+      "name": "Homebridge trixie (64bit)",
+      "description": "Official Homebridge Raspberry Pi Image trixie (64bit) - Recommended",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.3.7/image_2025-07-16-Homebridge-bookworm-64bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v1.4.0/image_2025-12-03-Homebridge-trixie-64bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "release_date": "2025-07-16",
+      "release_date": "2025-12-03",
       "devices": [
         "pi5-64bit",
         "pi4-64bit",
         "pi3-64bit"
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
-      "extract_size": 3372220416,
-      "image_download_size": 850167702,
-      "extract_sha256": "75f7b25fde901f96447f3c17e579e528f8bebf2efcceff4d49a6a3c1a8e66e7a",
-      "image_download_sha256": "e90027dcd325e51580caf35e8d38cd4c580246d2a63bfd1d960da816214f9843"
+      "extract_size": 3623878656,
+      "image_download_size": 1005100645,
+      "extract_sha256": "46fdf2f389c38ac5709b4457a548304413a6881af6e37dbbd7d1c56cc8a73c6a",
+      "image_download_sha256": "dd0217564f61728b145ba7ca106b87da05109218b144ec24f7e7a760b170a637"
     }
   ]
 }
