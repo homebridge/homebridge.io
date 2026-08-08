@@ -4,9 +4,9 @@
       "name": "Homebridge trixie (32bit)",
       "description": "Official Homebridge Raspberry Pi Image trixie (32bit) - Not Recommended, support will be ending Spring 2027",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v2.0.13/image_2026-08-04-Homebridge-trixie-32bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v2.0.14/image_2026-08-08-Homebridge-trixie-32bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "release_date": "2026-08-04",
+      "release_date": "2026-08-08",
       "devices": [
         "pi5-32bit",
         "pi4-32bit",
@@ -15,28 +15,28 @@
         "pi1-32bit"
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
-      "extract_size": 3372220416,
-      "image_download_size": 992957078,
-      "extract_sha256": "00fb05953210203ad14111580d9c12486e70928ebf078fd7c6e8861fb444ea5e",
-      "image_download_sha256": "d26962608e37a3682d0e4eee473a2c68d52bb18f036eff5981237f770ed58cd6"
+      "extract_size": 3355443200,
+      "image_download_size": 976725550,
+      "extract_sha256": "fa34ffe7b92f3fb8307688622d1d15d70b1f279ebbedbe6572e8f34940fc7632",
+      "image_download_sha256": "a2c4211ca1599cd10f3227c7694d337e57553a8c1e0143fc01b00bc44a115a72"
     },
     {
       "name": "Homebridge trixie (64bit)",
       "description": "Official Homebridge Raspberry Pi Image trixie (64bit) - Recommended",
       "init_format": "systemd",
-      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v2.0.13/image_2026-08-04-Homebridge-trixie-64bit.zip",
+      "url": "https://github.com/homebridge/homebridge-raspbian-image/releases/download/v2.0.14/image_2026-08-08-Homebridge-trixie-64bit.zip",
       "icon": "https://user-images.githubusercontent.com/3979615/116509191-3c35f880-a906-11eb-9a7f-7cad7c2aa641.png",
-      "release_date": "2026-08-04",
+      "release_date": "2026-08-08",
       "devices": [
         "pi5-64bit",
         "pi4-64bit",
         "pi3-64bit"
       ],
       "website": "https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started",
-      "extract_size": 3774873600,
-      "image_download_size": 1056241894,
-      "extract_sha256": "bb163cfd287225a2bc2d4a6b1cbac09abc1277d4917dd201a1274a0d6c4f40bb",
-      "image_download_sha256": "0d7ddd46a64db7c9d687423f845a723c1505acab09481de1bdbfc3b71c06fcc0"
+      "extract_size": 3732930560,
+      "image_download_size": 1026313863,
+      "extract_sha256": "37c6c17b7d2d2482c45936467bc69d2f3bb10cddd60d5e0a906c22895dc8b73d",
+      "image_download_sha256": "b838bc62608f3ded13129334368163c9f4ea8ce3a1497bdd3b609e577487c01e"
     }
   ]
 }
