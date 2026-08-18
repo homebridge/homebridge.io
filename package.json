@@ -52,5 +52,18 @@
     "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
     "typescript": "^4.8.4"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "fsevents": true,
+    "@fortawesome/fontawesome-common-types": false,
+    "@fortawesome/fontawesome-svg-core": false,
+    "@fortawesome/free-brands-svg-icons": false,
+    "@fortawesome/free-regular-svg-icons": false,
+    "@fortawesome/free-solid-svg-icons": false,
+    "core-js": false,
+    "nx": false,
+    "@parcel/watcher": false,
+    "nice-napi": false
   }
 }
