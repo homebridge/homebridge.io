@@ -48,10 +48,8 @@
               "src/sitemap.txt",
               "src/robots.txt",
               "src/CNAME",
-              "src/404.html",
               "src/assets/images/favicon.ico",
               "src/assets",
-              "src/rpi-image-repo.json",
               {
                 "glob": "**/*",
                 "input": "src/public",
