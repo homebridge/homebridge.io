@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import { faWindows, faApple, faDocker, faRaspberryPi, faLinux } from '@fortawesome/free-brands-svg-icons';
 import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
-declare var gtag;
-
 @Component({
   selector: 'app-platform-selector',
   templateUrl: './platform-selector.component.html',
@@ -51,10 +49,6 @@ export class PlatformSelectorComponent {
       return;
     }
     this.selectedPlatform = platform.key;
-
-    gtag('event', platform.key, {
-      event_category: 'Platform Selected',
-    });
   }
 
 }

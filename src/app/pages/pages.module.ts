@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { MarkdownModule } from 'ngx-markdown';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { HowToInstallHomebridgeComponent } from './how-to-install-homebridge/how-to-install-homebridge.component';
@@ -22,7 +21,6 @@ import { OfficialRaspberryPiImageComponent } from './official-raspberry-pi-image
     CommonModule,
     BrowserModule,
     FormsModule,
-    MarkdownModule,
     ReactiveFormsModule,
     PagesRoutingModule,
     FontAwesomeModule,
