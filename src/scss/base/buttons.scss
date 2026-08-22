@@ -3,6 +3,8 @@
 // Where all button types and button styles are styled
 ////////////////////////////////////////////////////////////////////////////////
 
+@use 'colors' as *;
+
 .btn-purple,
 .btn-purple:visited {
   background-color: $homebridge-purple-400;

@@ -4,6 +4,8 @@
 // include font-size, font-family and other aspects etc.
 ////////////////////////////////////////////////////////////////////////////////
 
+@use 'colors' as *;
+
 @font-face {
   font-family: system;
   font-style: normal;
