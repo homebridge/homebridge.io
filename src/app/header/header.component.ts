@@ -1,18 +1,19 @@
-import { Component } from '@angular/core';
-import { faGithub, faDiscord, faReddit } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { PlatformSelectorComponent } from '../platform-selector/platform-selector.component';
+import { Component } from '@angular/core'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { faDiscord, faGithub, faReddit } from '@fortawesome/free-brands-svg-icons'
+
+import { PlatformSelectorComponent } from '../platform-selector/platform-selector.component'
 
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
   imports: [FontAwesomeModule, PlatformSelectorComponent],
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  public faGithub = faGithub;
-  public faDiscord = faDiscord;
-  public faReddit = faReddit;
+  public faGithub = faGithub
+  public faDiscord = faDiscord
+  public faReddit = faReddit
 
   constructor() {
 

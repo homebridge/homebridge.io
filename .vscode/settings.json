@@ -3,7 +3,22 @@
   "editor.insertSpaces": true,
   "files.eol": "\n",
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
+    "source.fixAll.eslint": "explicit"
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".ts",
+      ".html"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html"
+  ],
+  "angular.enable-strict-mode-prompt": false
 }

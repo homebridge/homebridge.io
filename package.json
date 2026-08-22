@@ -1,15 +1,16 @@
 {
   "name": "homebridge.io",
-  "description": "The https://homebridge.io website",
+  "type": "module",
   "version": "1.0.0",
+  "private": true,
+  "description": "The https://homebridge.io website",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "watch": "ng serve",
     "build": "ng build --configuration production --output-path dist",
-    "lint": "ng lint --max-warnings=0"
+    "lint": "eslint . --max-warnings=0"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^21.2.21",
     "@angular/common": "^21.2.21",
@@ -33,17 +34,16 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^21.2.21",
-    "@angular-eslint/builder": "^21.4.0",
-    "@angular-eslint/eslint-plugin": "^21.4.0",
-    "@angular-eslint/eslint-plugin-template": "^21.4.0",
-    "@angular-eslint/schematics": "^21.4.0",
-    "@angular-eslint/template-parser": "^21.4.0",
+    "@angular-eslint/eslint-plugin": "^22.1.0",
+    "@angular-eslint/eslint-plugin-template": "^22.1.0",
+    "@angular-eslint/template-parser": "^22.1.0",
     "@angular/cli": "^21.2.21",
     "@angular/compiler-cli": "^21.2.21",
+    "@antfu/eslint-config": "^9.3.0",
+    "@prettier/plugin-xml": "^3.4.2",
     "@types/node": "^18.19.130",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
-    "eslint": "^8.57.0",
+    "eslint": "^10.9.0",
+    "eslint-plugin-format": "^2.0.1",
     "ts-node": "^10.9.2",
     "typescript": "~5.9.3"
   },
@@ -58,5 +58,12 @@
     "nx": false,
     "@parcel/watcher": false,
     "nice-napi": false
+  },
+  "overrides": {
+    "@antfu/eslint-config": {
+      "@angular-eslint/eslint-plugin": "^22.1.0",
+      "@angular-eslint/eslint-plugin-template": "^22.1.0",
+      "@angular-eslint/template-parser": "^22.1.0"
+    }
   }
 }
