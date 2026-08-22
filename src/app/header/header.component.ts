@@ -7,7 +7,6 @@ import { PlatformSelectorComponent } from '../platform-selector/platform-selecto
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  standalone: true,
   imports: [FontAwesomeModule, PlatformSelectorComponent],
 })
 export class HeaderComponent {

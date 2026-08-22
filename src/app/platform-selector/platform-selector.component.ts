@@ -8,7 +8,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   selector: 'app-platform-selector',
   templateUrl: './platform-selector.component.html',
   styleUrls: ['./platform-selector.component.scss'],
-  standalone: true,
   imports: [
     NgFor,
     NgClass,
