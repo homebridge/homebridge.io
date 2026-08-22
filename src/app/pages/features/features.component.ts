@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FaIconComponent } from '@fortawesome/angular-fontawesome'
 import {
   faDownload,
   faHeart,
@@ -10,7 +10,7 @@ import { FindPluginComponent } from './find-plugin/find-plugin.component'
 
 @Component({
   selector: 'app-features',
-  imports: [FindPluginComponent, FontAwesomeModule],
+  imports: [FindPluginComponent, FaIconComponent],
   templateUrl: './features.component.html',
   styleUrl: './features.component.scss',
 })

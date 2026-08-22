@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FaIconComponent } from '@fortawesome/angular-fontawesome'
 import {
   faDiscord,
   faGithub,
@@ -10,7 +10,7 @@ import { PlatformSelectorComponent } from '../platform-selector/platform-selecto
 
 @Component({
   selector: 'app-header',
-  imports: [FontAwesomeModule, PlatformSelectorComponent],
+  imports: [FaIconComponent, PlatformSelectorComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })

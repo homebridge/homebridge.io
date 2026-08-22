@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { BrowserModule } from '@angular/platform-browser'
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 import { FeaturesComponent } from './features/features.component'
 import { FindPluginComponent } from './features/find-plugin/find-plugin.component'
@@ -17,7 +16,6 @@ import { PagesRoutingModule } from './pages-routing.module'
     FormsModule,
     ReactiveFormsModule,
     PagesRoutingModule,
-    FontAwesomeModule,
     FeaturesComponent,
     FindPluginComponent,
     HowToInstallHomebridgeComponent,
