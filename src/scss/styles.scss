@@ -3,13 +3,13 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 // Vendors
-@import 'bootstrap/scss/bootstrap';
+@use 'bootstrap/scss/bootstrap';
 
 // Base
-@import 'base/colors';
-@import 'base/typography';
-@import 'base/buttons';
+@use 'base/colors';
+@use 'base/typography';
+@use 'base/buttons';
 
 // Components
-@import 'components/header';
-@import 'components/markdown';
+@use 'components/header';
+@use 'components/markdown';
