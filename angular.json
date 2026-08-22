@@ -106,11 +106,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "homebridge:build"
+            "buildTarget": "homebridge:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "homebridge:build:production"
+              "buildTarget": "homebridge:build:production"
             }
           }
         },
