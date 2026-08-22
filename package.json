@@ -8,7 +8,7 @@
     "ng": "ng",
     "start": "ng serve",
     "watch": "ng serve",
-    "build": "ng build --configuration production --output-path dist",
+    "build": "ng build --configuration production",
     "lint": "eslint . --max-warnings=0"
   },
   "dependencies": {
@@ -33,10 +33,10 @@
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^22.1.5",
     "@angular-eslint/eslint-plugin": "^22.1.0",
     "@angular-eslint/eslint-plugin-template": "^22.1.0",
     "@angular-eslint/template-parser": "^22.1.0",
+    "@angular/build": "^22.1.5",
     "@angular/cli": "^22.1.5",
     "@angular/compiler-cli": "^22.1.3",
     "@antfu/eslint-config": "^9.3.0",
