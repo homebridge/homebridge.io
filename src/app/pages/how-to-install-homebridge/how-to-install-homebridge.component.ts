@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-how-to-install-homebridge',
   templateUrl: './how-to-install-homebridge.component.html',
   styleUrls: ['./how-to-install-homebridge.component.scss'],
+  standalone: true,
 })
 export class HowToInstallHomebridgeComponent {
   constructor() { }
