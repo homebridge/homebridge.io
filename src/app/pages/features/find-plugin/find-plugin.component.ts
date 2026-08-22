@@ -10,11 +10,14 @@ import { FormsModule } from '@angular/forms'
 export class FindPluginComponent {
   public searchInput = ''
 
-  constructor() { }
+  constructor() {}
 
   submitForm() {
     if (this.searchInput) {
-      window.open(`https://www.npmjs.com/search?q=${encodeURIComponent(`keywords:homebridge-plugin ${this.searchInput}`)}`, '_blank')
+      window.open(
+        `https://www.npmjs.com/search?q=${encodeURIComponent(`keywords:homebridge-plugin ${this.searchInput}`)}`,
+        '_blank',
+      )
       this.searchInput = ''
     }
   }

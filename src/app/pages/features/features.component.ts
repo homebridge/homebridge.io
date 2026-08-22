@@ -1,6 +1,10 @@
 import { Component } from '@angular/core'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
-import { faDownload, faHeart, faSdCard } from '@fortawesome/free-solid-svg-icons'
+import {
+  faDownload,
+  faHeart,
+  faSdCard,
+} from '@fortawesome/free-solid-svg-icons'
 
 import { FindPluginComponent } from './find-plugin/find-plugin.component'
 
@@ -15,5 +19,5 @@ export class FeaturesComponent {
   public faSdCard = faSdCard
   public faDownload = faDownload
 
-  constructor() { }
+  constructor() {}
 }

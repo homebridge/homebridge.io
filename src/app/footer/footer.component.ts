@@ -9,5 +9,5 @@ import { Component } from '@angular/core'
 export class FooterComponent {
   public currentYear = new Date().getFullYear()
 
-  constructor() { }
+  constructor() {}
 }
