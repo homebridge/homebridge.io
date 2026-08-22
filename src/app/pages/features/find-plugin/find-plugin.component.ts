@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-find-plugin',
   templateUrl: './find-plugin.component.html',
   styleUrls: ['./find-plugin.component.scss'],
-  standalone: true,
   imports: [FormsModule],
 })
 export class FindPluginComponent {

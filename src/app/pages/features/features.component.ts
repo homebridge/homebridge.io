@@ -7,7 +7,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   selector: 'app-features',
   templateUrl: './features.component.html',
   styleUrls: ['./features.component.scss'],
-  standalone: true,
   imports: [FindPluginComponent, FontAwesomeModule],
 })
 export class FeaturesComponent {

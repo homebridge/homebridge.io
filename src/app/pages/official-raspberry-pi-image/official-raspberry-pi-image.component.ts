@@ -6,7 +6,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   selector: 'app-official-raspberry-pi-image',
   templateUrl: './official-raspberry-pi-image.component.html',
   styleUrls: ['./official-raspberry-pi-image.component.scss'],
-  standalone: true,
   imports: [FontAwesomeModule],
 })
 export class OfficialRaspberryPiImageComponent {
