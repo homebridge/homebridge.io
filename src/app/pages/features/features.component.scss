@@ -12,6 +12,14 @@ li {
   margin-right: 0px;
 }
 
+.section-block-tinted {
+  background-color: #f8f7fa;
+}
+
+.feature-icon {
+  font-size: 60px;
+}
+
 .section-block {
   @media (max-width: 575px) {
     padding: 15px !important;

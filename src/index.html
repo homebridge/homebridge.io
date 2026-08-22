@@ -1,58 +1,58 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Homebridge</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Homebridge</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+    <link rel="mask-icon" href="assets/images/logo.svg" color="#57277c" />
+    <link rel="manifest" href="assets/manifest.webmanifest" />
+    <meta name="theme-color" content="#140a33" />
+    <meta property="og:title" content="Homebridge" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://homebridge.io" />
+    <meta property="og:description" content="Homebridge adds HomeKit support to your non-HomeKit smart home devices." />
+    <meta name="description" content="Homebridge adds HomeKit support to your non-HomeKit smart home devices." />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-  <link rel="mask-icon" href="assets/images/logo.svg" color="#57277c">
-  <link rel="manifest" href="assets/manifest.webmanifest">
-  <meta name="theme-color" content="#140a33">
-  <meta property="og:title" content="Homebridge">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://homebridge.io">
-  <meta property="og:description" content="Homebridge adds HomeKit support to your non-HomeKit smart home devices.">
-  <meta name="description" content="Homebridge adds HomeKit support to your non-HomeKit smart home devices.">
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      ;(function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&')
+            })
+            .join('?')
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash)
+        }
+      })(window.location)
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
 
-  <!-- Start Single Page Apps for GitHub Pages -->
-  <script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // MIT License
-    // https://github.com/rafgraph/spa-github-pages
-    // This script checks to see if a redirect is present in the query string,
-    // converts it back into the correct url and adds it to the
-    // browser's history using window.history.replaceState(...),
-    // which won't cause the browser to attempt to load the new url.
-    // When the single page app is loaded further down in this file,
-    // the correct url will be waiting in the browser's history for
-    // the single page app to route accordingly.
-    (function (l) {
-      if (l.search[1] === '/') {
-        var decoded = l.search.slice(1).split('&').map(function (s) {
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-          l.pathname.slice(0, -1) + decoded + l.hash
-        );
-      }
-    }(window.location))
-  </script>
-  <!-- End Single Page Apps for GitHub Pages -->
+    <link rel="stylesheet" href="https://use.typekit.net/tqg0jcu.css" />
 
-  <link rel="stylesheet" href="https://use.typekit.net/tqg0jcu.css">
+    <meta name="google-site-verification" content="1_86Bp6e3u8Rrt5eN2e6NqRpSLJ52bIYO37LvNLxgZk" />
+  </head>
 
-  <meta name="google-site-verification" content="1_86Bp6e3u8Rrt5eN2e6NqRpSLJ52bIYO37LvNLxgZk" />
-</head>
-
-<body>
-  <app-root></app-root>
-</body>
-
+  <body>
+    <app-root></app-root>
+  </body>
 </html>
