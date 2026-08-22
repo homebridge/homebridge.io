@@ -1,4 +1,4 @@
-import { enableProdMode, importProvidersFrom } from '@angular/core';
+import { enableProdMode, importProvidersFrom, provideZoneChangeDetection } from '@angular/core';
 import { environment } from './environments/environment';
 import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -12,6 +12,6 @@ if (environment.production) {
 }
 
 bootstrapApplication(AppComponent, {
-  providers: [importProvidersFrom(BrowserModule, FormsModule, ReactiveFormsModule, FontAwesomeModule, PagesModule, AppRoutingModule)]
+  providers: [provideZoneChangeDetection(), importProvidersFrom(BrowserModule, FormsModule, ReactiveFormsModule, FontAwesomeModule, PagesModule, AppRoutingModule)]
 })
   .catch(err => console.error(err));

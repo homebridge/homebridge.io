@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { faWindows, faApple, faDocker, faRaspberryPi, faLinux } from '@fortawesome/free-brands-svg-icons';
 import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
-import { NgFor, NgClass, NgIf, NgSwitch, NgSwitchCase } from '@angular/common';
+import { NgClass } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
@@ -9,12 +9,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   templateUrl: './platform-selector.component.html',
   styleUrls: ['./platform-selector.component.scss'],
   imports: [
-    NgFor,
     NgClass,
     FontAwesomeModule,
-    NgIf,
-    NgSwitch,
-    NgSwitchCase,
   ],
 })
 export class PlatformSelectorComponent {
