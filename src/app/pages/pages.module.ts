@@ -11,12 +11,6 @@ import { FindPluginComponent } from './features/find-plugin/find-plugin.componen
 import { OfficialRaspberryPiImageComponent } from './official-raspberry-pi-image/official-raspberry-pi-image.component';
 
 @NgModule({
-  declarations: [
-    FeaturesComponent,
-    FindPluginComponent,
-    HowToInstallHomebridgeComponent,
-    OfficialRaspberryPiImageComponent,
-  ],
   imports: [
     CommonModule,
     BrowserModule,
@@ -24,6 +18,10 @@ import { OfficialRaspberryPiImageComponent } from './official-raspberry-pi-image
     ReactiveFormsModule,
     PagesRoutingModule,
     FontAwesomeModule,
+    FeaturesComponent,
+    FindPluginComponent,
+    HowToInstallHomebridgeComponent,
+    OfficialRaspberryPiImageComponent,
   ],
 })
 export class PagesModule { }

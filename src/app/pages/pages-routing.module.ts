@@ -6,16 +6,16 @@ import { OfficialRaspberryPiImageComponent } from './official-raspberry-pi-image
 
 const routes: Routes = [
   {
-    path: '',
-    component: FeaturesComponent,
+  path: '',
+  component: FeaturesComponent,
   },
   {
-    path: 'how-to-install-homebridge',
-    component: HowToInstallHomebridgeComponent,
+  path: 'how-to-install-homebridge',
+  component: HowToInstallHomebridgeComponent,
   },
   {
-    path: 'raspberry-pi-image',
-    component: OfficialRaspberryPiImageComponent,
+  path: 'raspberry-pi-image',
+  component: OfficialRaspberryPiImageComponent,
   },
 ];
 
