@@ -12,5 +12,5 @@ export class OfficialRaspberryPiImageComponent {
   public faSdCard = faSdCard
   public faDownload = faDownload
 
-  constructor() { }
+  constructor() {}
 }

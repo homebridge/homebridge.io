@@ -5,17 +5,10 @@
     "target": "ES2022",
     "useDefineForClassFields": false,
     "experimentalDecorators": true,
-    "baseUrl": "./",
     "module": "es2020",
     "moduleResolution": "bundler",
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },
     "resolveJsonModule": true,
     "declaration": false,
-    "downlevelIteration": true,
     "importHelpers": true,
     "outDir": "./dist/out-tsc",
     "sourceMap": true

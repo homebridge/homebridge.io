@@ -7,5 +7,5 @@ import { Component } from '@angular/core'
   styleUrl: './how-to-install-homebridge.component.scss',
 })
 export class HowToInstallHomebridgeComponent {
-  constructor() { }
+  constructor() {}
 }

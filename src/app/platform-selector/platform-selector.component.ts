@@ -1,15 +1,25 @@
+import type { IconDefinition } from '@fortawesome/fontawesome-svg-core'
+
 import { NgClass } from '@angular/common'
 import { Component } from '@angular/core'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
-import { faApple, faDocker, faLinux, faRaspberryPi, faWindows } from '@fortawesome/free-brands-svg-icons'
+import {
+  faApple,
+  faDocker,
+  faLinux,
+  faRaspberryPi,
+  faWindows,
+} from '@fortawesome/free-brands-svg-icons'
 import { faCaretUp } from '@fortawesome/free-solid-svg-icons'
+
+interface Platform {
+  key: string
+  icon: IconDefinition
+}
 
 @Component({
   selector: 'app-platform-selector',
-  imports: [
-    NgClass,
-    FontAwesomeModule,
-  ],
+  imports: [NgClass, FontAwesomeModule],
   templateUrl: './platform-selector.component.html',
   styleUrl: './platform-selector.component.scss',
 })
@@ -24,7 +34,7 @@ export class PlatformSelectorComponent {
 
   public selectedPlatform = ''
 
-  public platforms = [
+  public platforms: Platform[] = [
     {
       key: 'pi',
       icon: faRaspberryPi,
@@ -47,9 +57,7 @@ export class PlatformSelectorComponent {
     },
   ]
 
-  constructor() { }
-
-  selectPlatform(platform) {
+  selectPlatform(platform: Platform) {
     if (platform.key === this.selectedPlatform) {
       this.selectedPlatform = ''
       return
