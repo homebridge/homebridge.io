@@ -52,7 +52,11 @@
               "src/sitemap.txt",
               "src/robots.txt",
               "src/CNAME",
-              "src/assets/images/favicon.ico",
+              {
+                "glob": "favicon.ico",
+                "input": "src/assets/images",
+                "output": "/"
+              },
               "src/assets",
               {
                 "glob": "**/*",
