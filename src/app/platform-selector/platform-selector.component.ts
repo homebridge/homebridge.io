@@ -1,7 +1,7 @@
 import type { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 
 import { Component } from '@angular/core'
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FaIconComponent } from '@fortawesome/angular-fontawesome'
 import {
   faApple,
   faDocker,
@@ -18,7 +18,7 @@ interface Platform {
 
 @Component({
   selector: 'app-platform-selector',
-  imports: [FontAwesomeModule],
+  imports: [FaIconComponent],
   templateUrl: './platform-selector.component.html',
   styleUrl: './platform-selector.component.scss',
 })

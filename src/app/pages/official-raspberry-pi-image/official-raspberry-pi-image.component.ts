@@ -1,10 +1,10 @@
 import { Component } from '@angular/core'
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FaIconComponent } from '@fortawesome/angular-fontawesome'
 import { faDownload, faSdCard } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-official-raspberry-pi-image',
-  imports: [FontAwesomeModule],
+  imports: [FaIconComponent],
   templateUrl: './official-raspberry-pi-image.component.html',
   styleUrl: './official-raspberry-pi-image.component.scss',
 })
