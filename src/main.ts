@@ -1,17 +1,18 @@
-import { enableProdMode, importProvidersFrom, provideZoneChangeDetection } from '@angular/core'
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'
-import { bootstrapApplication, BrowserModule } from '@angular/platform-browser'
+import { provideZoneChangeDetection } from '@angular/core'
+import { bootstrapApplication } from '@angular/platform-browser'
+import { provideRouter, withInMemoryScrolling, withRouterConfig } from '@angular/router'
 
-import { AppRoutingModule } from './app/app-routing.module'
 import { AppComponent } from './app/app.component'
-import { PagesModule } from './app/pages/pages.module'
-import { environment } from './environments/environment'
-
-if (environment.production) {
-  enableProdMode()
-}
+import { routes } from './app/app.routes'
 
 bootstrapApplication(AppComponent, {
-  providers: [provideZoneChangeDetection(), importProvidersFrom(BrowserModule, FormsModule, ReactiveFormsModule, PagesModule, AppRoutingModule)],
+  providers: [
+    provideZoneChangeDetection(),
+    provideRouter(
+      routes,
+      withInMemoryScrolling({ scrollPositionRestoration: 'enabled' }),
+      withRouterConfig({ onSameUrlNavigation: 'reload' }),
+    ),
+  ],
 })
   .catch(err => console.error(err))
