@@ -1,6 +1,5 @@
 import type { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 
-import { NgClass } from '@angular/common'
 import { Component } from '@angular/core'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import {
@@ -19,7 +18,7 @@ interface Platform {
 
 @Component({
   selector: 'app-platform-selector',
-  imports: [NgClass, FontAwesomeModule],
+  imports: [FontAwesomeModule],
   templateUrl: './platform-selector.component.html',
   styleUrl: './platform-selector.component.scss',
 })
