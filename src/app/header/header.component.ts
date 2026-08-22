@@ -19,5 +19,10 @@ export class HeaderComponent {
   public faDiscord = faDiscord
   public faReddit = faReddit
 
-  constructor() {}
+  /** Bootstrap's collapse plugin is the only javascript this site used it for, so the navbar state lives here instead. */
+  public navbarOpen = false
+
+  public toggleNavbar(): void {
+    this.navbarOpen = !this.navbarOpen
+  }
 }
