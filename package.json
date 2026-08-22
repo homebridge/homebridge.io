@@ -16,7 +16,6 @@
     "@angular/compiler": "^14.3.0",
     "@angular/core": "^14.3.0",
     "@angular/forms": "^14.3.0",
-    "@angular/localize": "^14.3.0",
     "@angular/platform-browser": "^14.3.0",
     "@angular/platform-browser-dynamic": "^14.3.0",
     "@angular/router": "^14.3.0",
@@ -26,7 +25,6 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "bootstrap": "^4.6.2",
-    "core-js": "^3.50.0",
     "jquery": "^3.7.1",
     "popper.js": "^1.16.1",
     "rxjs": "^6.6.7",
@@ -57,7 +55,6 @@
     "@fortawesome/free-brands-svg-icons": false,
     "@fortawesome/free-regular-svg-icons": false,
     "@fortawesome/free-solid-svg-icons": false,
-    "core-js": false,
     "nx": false,
     "@parcel/watcher": false,
     "nice-napi": false
