@@ -1,3 +1,9 @@
+// Bootstrap 5 drops the navbar's horizontal padding, which Bootstrap 4 set to 1rem. This navbar is not wrapped in a
+// container, so without it the links and social icons sit flush against the edges of the viewport.
+.navbar {
+  --bs-navbar-padding-x: 1rem;
+}
+
 #commandParallax {
   opacity: 0.33;
   z-index: -1000;
