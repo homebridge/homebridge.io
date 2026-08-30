@@ -4,7 +4,10 @@ import antfu from '@antfu/eslint-config'
 // packages, structure and rule set, with the paths adapted to this repo.
 export default antfu(
   {
-    ignores: ['dist', '.angular', 'src/assets'],
+    // rpi-image-repo.json is rewritten by the homebridge-raspbian-image release
+    // workflow, which does not add a trailing newline - linting it means every
+    // image release turns lint red
+    ignores: ['dist', '.angular', 'src/assets', 'src/public/rpi-image-repo.json'],
     typescript: true,
     angular: true,
     formatters: {
