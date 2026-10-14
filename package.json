@@ -35,7 +35,7 @@
     "@angular-eslint/eslint-plugin-template": "^22.2.0",
     "@angular-eslint/template-parser": "^22.2.0",
     "@angular/build": "^22.1.6",
-    "@angular/cli": "^22.1.6",
+    "@angular/cli": "^22.2.2",
     "@angular/compiler-cli": "^22.1.4",
     "@antfu/eslint-config": "^9.3.0",
     "@prettier/plugin-xml": "^3.4.2",
