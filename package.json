@@ -11,7 +11,7 @@
     "ng": "ng",
     "start": "ng serve",
     "watch": "ng serve",
-    "build": "NG_BUILD_SASS_EMBEDDED=0 ng build --configuration production",
+    "build": "ng build --configuration production",
     "lint": "eslint . --max-warnings=0"
   },
   "dependencies": {
