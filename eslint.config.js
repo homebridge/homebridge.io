@@ -7,7 +7,12 @@ export default antfu(
     // rpi-image-repo.json is rewritten by the homebridge-raspbian-image release
     // workflow, which does not add a trailing newline - linting it means every
     // image release turns lint red
-    ignores: ['dist', '.angular', 'src/assets', 'src/public/rpi-image-repo.json'],
+    ignores: [
+      'dist',
+      '.angular',
+      'src/assets',
+      'src/public/rpi-image-repo.json',
+    ],
     typescript: true,
     angular: true,
     formatters: {
@@ -59,7 +64,10 @@ export default antfu(
       'style/quote-props': ['error', 'consistent-as-needed'],
       'ts/consistent-type-imports': 'off',
       'unicorn/no-useless-spread': 'error',
-      'unused-imports/no-unused-vars': ['error', { caughtErrors: 'none', args: 'none' }],
+      'unused-imports/no-unused-vars': [
+        'error',
+        { caughtErrors: 'none', args: 'none' },
+      ],
     },
   },
 )
@@ -143,7 +151,10 @@ export default antfu(
       'angular-template/no-distracting-elements': 'error',
       'angular-template/no-duplicate-attributes': 'error',
       'angular-template/no-empty-control-flow': 'error',
-      'angular-template/no-inline-styles': ['error', { allowBindToStyle: true }],
+      'angular-template/no-inline-styles': [
+        'error',
+        { allowBindToStyle: true },
+      ],
       'angular-template/no-interpolation-in-attributes': 'error',
       'angular-template/no-negated-async': 'error',
       'angular-template/no-nested-tags': 'error',
@@ -162,16 +173,19 @@ export default antfu(
       'angular-template/table-scope': 'error',
       'angular-template/use-track-by-function': 'error',
       'angular-template/valid-aria': 'error',
-      'format/prettier': ['error', {
-        parser: 'angular',
-        endOfLine: 'auto',
-        printWidth: 120,
-        semi: false,
-        singleQuote: true,
-        tabWidth: 2,
-        trailingComma: 'all',
-        useTabs: false,
-      }],
+      'format/prettier': [
+        'error',
+        {
+          parser: 'angular',
+          endOfLine: 'auto',
+          printWidth: 120,
+          semi: false,
+          singleQuote: true,
+          tabWidth: 2,
+          trailingComma: 'all',
+          useTabs: false,
+        },
+      ],
       'style/no-multiple-empty-lines': 'off',
       // antfu's base config enables `style/spaced-comment` for JS comments, but
       // it falsely matches HTML `<!-- ... -->` and demanded `<! -- ... - ->`,
