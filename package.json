@@ -15,18 +15,18 @@
     "lint": "eslint . --max-warnings=0 --fix"
   },
   "dependencies": {
-    "@angular/common": "^22.2.4",
-    "@angular/compiler": "^22.2.4",
-    "@angular/core": "^22.2.4",
-    "@angular/forms": "^22.2.4",
-    "@angular/platform-browser": "^22.2.4",
-    "@angular/router": "^22.2.4",
+    "@angular/common": "^22.2.5",
+    "@angular/compiler": "^22.2.5",
+    "@angular/core": "^22.2.5",
+    "@angular/forms": "^22.2.5",
+    "@angular/platform-browser": "^22.2.5",
+    "@angular/router": "^22.2.5",
     "@fortawesome/angular-fontawesome": "^5.1.0",
     "@fortawesome/fontawesome-svg-core": "^7.3.1",
     "@fortawesome/free-brands-svg-icons": "^7.3.1",
     "@fortawesome/free-solid-svg-icons": "^7.3.1",
     "bootstrap": "^5.3.8",
-    "rxjs": "~7.8.2",
+    "rxjs": "^7.8.2",
     "tslib": "^2.9.1",
     "zone.js": "~0.16.3"
   },
@@ -34,9 +34,9 @@
     "@angular-eslint/eslint-plugin": "^22.6.0",
     "@angular-eslint/eslint-plugin-template": "^22.6.0",
     "@angular-eslint/template-parser": "^22.6.0",
-    "@angular/build": "^22.2.5",
-    "@angular/cli": "^22.2.5",
-    "@angular/compiler-cli": "^22.2.4",
+    "@angular/build": "^22.2.6",
+    "@angular/cli": "^22.2.6",
+    "@angular/compiler-cli": "^22.2.5",
     "@antfu/eslint-config": "^10.0.0",
     "@prettier/plugin-xml": "^3.4.2",
     "@types/node": "^26.6.6",
@@ -60,9 +60,9 @@
   },
   "overrides": {
     "@antfu/eslint-config": {
-      "@angular-eslint/eslint-plugin": "^22.2.0",
-      "@angular-eslint/eslint-plugin-template": "^22.2.0",
-      "@angular-eslint/template-parser": "^22.2.0"
+      "@angular-eslint/eslint-plugin": "^22.6.0",
+      "@angular-eslint/eslint-plugin-template": "^22.6.0",
+      "@angular-eslint/template-parser": "^22.6.0"
     },
     "micromark-extension-math": {
       "katex": "^0.19.1"
